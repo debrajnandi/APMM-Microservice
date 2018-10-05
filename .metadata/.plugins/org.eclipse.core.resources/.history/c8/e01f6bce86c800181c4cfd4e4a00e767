@@ -1,0 +1,10 @@
+CREATE KEYSPACE employeekeyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
+
+CREATE TABLE employeekeyspace.employee (id int PRIMARY KEY, firstname text, lastname text);
+
+CREATE INDEX customerfistnameindex ON employeekeyspace.employee (firstname);
+CREATE INDEX customersecondnameindex ON employeekeyspace.employee (lastname);
+
+select * from employeekeyspace.employee; 
+
+http://localhost:9090/employee-rabbitmq/producer?firstName=Chaya&lastName=Dey&id=12

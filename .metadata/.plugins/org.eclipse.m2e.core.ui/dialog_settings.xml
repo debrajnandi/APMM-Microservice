@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Antara_Documents\Other_documents\Tutorials\Microservices\workspace\SpringRMQOrders"/>
+			<item value="C:\Users\ANTARAMUKHERJEE\Downloads\SpringRabbitMqProducer\SpringRabbitMqProducer"/>
+			<item value="C:\Users\ANTARAMUKHERJEE\Downloads\SpringRabbitMqConsumer\SpringRabbitMqConsumer"/>
+			<item value="C:\Antara_Documents\Other_documents\Tutorials\Microservices\workspace\SpringRMQHello"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
